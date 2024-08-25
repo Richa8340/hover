@@ -1,0 +1,54 @@
+/* Basic reset */
+body, div, img, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full height body for centering content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the card */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styling */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.6; /* Semi-transparent by default */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    text-align: center;
+}
+
+/* Image styling */
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Text styling */
+.card-text {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Hover effect */
+.card:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
